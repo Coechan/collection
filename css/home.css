@@ -1,0 +1,108 @@
+
+html,body{
+    height: 100%;
+    background-color:#F0F0F0;
+    font-family: 'Nixie One', cursive;
+    color: #FFFFFF;
+    background-color: #BFB2B4;
+}
+.wrapper{
+    background-color: #F0F0F0;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    display:flex;
+    flex-flow: row nowrap;
+    height: 95%;
+    width: 90%;
+    font-size: 2rem;
+    margin: 1.5% 3% 0 3%;
+    font-family: 'Nixie One', cursive;
+    padding: 2%;
+    border-radius: 2rem;
+}
+.colum-left{
+    display:flex;
+    flex-flow: column nowrap;
+    width: 60%;
+    height: 100%;
+}
+.colum-right{
+    display:flex;
+    flex-flow: column nowrap;
+    width: 40%;
+    height: 100%;
+}
+.porfolio{
+    background-color: #CAE0D8;
+    height:48%;
+    border-radius: 0.5rem;
+    margin:0.40rem;
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    background-image:url(../images/me.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    text-align: end;
+    font-size: 3rem;
+    font-weight:bold;
+}
+.manga{
+    background-color: #F4B8AC;
+    height:42%;
+    border-radius: 0.5rem;
+    margin:0.40rem;
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: left; 
+    background-image: url(../images/manga2.png);
+    background-size:300px 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 5.2rem; 
+
+}
+.buy{
+    background-color: #F4CB67;
+    height:10%;
+    border-radius:0.5rem;
+    margin:0.40rem;
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-decoration: none; 
+}
+.artbook{
+    background-color: #DAC1C0;
+    background-image: url(../images/artbook.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:60%;
+    border-radius:0.5rem;
+    margin:0.40rem;
+    display: block;
+    text-align:end;
+    font-size: 2.60rem; 
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+.embroidery{
+    background-color: #DECAE6;
+    height:50%;
+    border-radius: 0.5rem;
+    margin:0.40rem;
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 2.8rem; 
+    text-align: start;
+    background-image: url(../images/anya.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+}
