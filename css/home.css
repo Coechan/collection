@@ -1,7 +1,6 @@
 
 html,body{
     height: 100%;
-    background-color:#F0F0F0;
     font-family: 'Nixie One', cursive;
     color: #FFFFFF;
     background-color: #BFB2B4;
@@ -11,7 +10,7 @@ html,body{
     font-family: 'Lato', sans-serif;
     color: #FFFFFF;
     display:flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     height: 95%;
     width: 90%;
     font-size: 2rem;
