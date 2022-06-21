@@ -1,0 +1,62 @@
+body{
+    background-color:#F0F0F0; ;
+    font-family: 'Nixie One', cursive;
+    color: #FFFFFF;
+}
+.wrapper{
+    height: 95%;
+    width: 90%;
+    margin: 1.5% 3% 0 3%;
+}
+.box{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+}
+.buymanga{
+    background-color:#F4B8AC;
+    border-radius: 2rem;
+    margin: 1rem;
+    width: 90%;
+}
+.buyartbook{
+    background-color:#DECAE6;
+    border-radius: 2rem;
+    margin: 1rem;
+    width: 40%;
+}
+.buyfigures{
+    background-color:#F4CB67;
+    border-radius: 2rem;
+    margin: 1rem;
+    width: 50%;
+}
+p{
+    font-size: 2.5rem;
+    text-align: start;
+    padding: 1rem;
+}
+.imgmanga{
+    width: 250px;
+    height: 380px;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+.imgartbook{
+    width: 250px;
+    height: 350px;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+.imgfigure{
+        width: 500px;
+        height: 350px;
+        border-radius: 2rem;
+        margin: 1rem;
+ }    
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#AD6A7C;
+
+}

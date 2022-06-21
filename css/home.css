@@ -7,7 +7,6 @@ html,body{
 }
 .wrapper{
     background-color: #F0F0F0;
-    font-family: 'Lato', sans-serif;
     color: #FFFFFF;
     display:flex;
     flex-flow: row wrap;
