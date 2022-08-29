@@ -96,6 +96,7 @@ a , .porfolio p{
 @media screen and (max-width:480px){
     .wrapper{
         flex-flow: column wrap;
+        border-radius: 0,5rem;
     }
 
     .left, .right{
@@ -111,10 +112,10 @@ a , .porfolio p{
         width: 48%;
     }
     
-
     a , .porfolio p{
-        font-size: 30px;
-        margin:2% 
+        font-size: 28px;
+        margin:2%;
+        padding:4%;
     }
 
     .porfolio , .manga , .buy , .artbook , .embroidery{
@@ -132,12 +133,17 @@ a , .porfolio p{
     }
 
     .manga{
-        width: 930;
+        width: 93%;
     }
 
     .artbook {
         height: 44%;
-        width: 100%%;
+        width: 100%;
+    }
+
+    .embroidery{
+        width: 100%;
+        height: 50%;
     }
 
     .porfolio img {
@@ -160,17 +166,12 @@ a , .porfolio p{
 
     .embroidery img {
         width: 100%;
-        border-radius: 0 0.5rem 0.5rem 0;
-    }
-
-    .embroidery img {
-        width: 100%;
         height: 72%;
         border-radius: 0 0 0.5rem 0.5rem;
     }
 
     .buy a{
-        font-size: 25px;
+        font-size: 22px;
     }
 
 }
