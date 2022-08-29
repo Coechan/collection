@@ -12,7 +12,7 @@ html,body{
     width: 90%;
     margin: 1.5% 3% 0 3%;
     padding: 2%;
-    border-radius: 2rem;
+    border-radius: 2%;
 }
 
 .left, .right{
@@ -37,7 +37,7 @@ a , .porfolio p{
 }
 
 .porfolio , .manga , .buy , .artbook , .embroidery{
-    border-radius: 0.5rem;
+    border-radius: 7px;
     margin:1%;
     display: flex;
     flex-direction: row;
@@ -51,7 +51,7 @@ a , .porfolio p{
 }
 
 .porfolio img{
-    border-radius: 0.5rem 0 0 0.5rem; 
+    border-radius: 7px 0 0 7px; 
 }
 
 .manga{
@@ -62,7 +62,7 @@ a , .porfolio p{
 
 .manga img{
     width: 35%;
-    border-radius: 0 0.5rem 0.5rem 0; 
+    border-radius: 0 7px 7px 0; 
 }
 
 .buy{
@@ -77,7 +77,7 @@ a , .porfolio p{
 }
 
 .artbook img {
-    border-radius: 0.5rem 0 0 0.5rem; 
+    border-radius: 7px 0 0 7px; 
     width: 50%;
     height: 100%;
 }
@@ -89,14 +89,13 @@ a , .porfolio p{
 
 .embroidery img{
     width: 41%;
-    border-radius: 0 0.5rem 0.5rem 0; 
+    border-radius: 0 7px 7px 0; 
 }
 
 
 @media screen and (max-width:480px){
     .wrapper{
         flex-flow: column wrap;
-        border-radius: 0,5rem;
     }
 
     .left, .right{
@@ -123,7 +122,7 @@ a , .porfolio p{
     }
 
     .porfolio , .manga , .buy , .artbook , .embroidery{
-        border-radius: 0.5rem;
+        border-radius: 7px;
         margin:1%;
         display: flex;
         flex-direction: column;
@@ -152,12 +151,12 @@ a , .porfolio p{
     }
 
     .porfolio img {
-        border-radius: 0.5rem 0.5rem 0 0 ;
+        border-radius: 7px 7px 0 0 ;
         width: 100%;
     }
 
     .artbook img {
-        border-radius: 0.5rem 0.5rem 0 0 ;
+        border-radius: 7px 7px 0 0 ;
         width: 100%;
         height: 62%;
     }
@@ -165,18 +164,18 @@ a , .porfolio p{
     .manga img {
         width: 100%;
         height: 76%;
-        border-radius: 0 0 0.5rem 0.5rem;
+        border-radius: 0 0 7px 7px;
         align-self: center;
     }
 
     .embroidery img {
         width: 100%;
         height: 72%;
-        border-radius: 0 0 0.5rem 0.5rem;
+        border-radius: 0 0 7px 7px;
     }
 
     .buy a{
-        font-size: 20px;
+        font-size: 15px;
     }
 
 }
