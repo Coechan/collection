@@ -118,6 +118,10 @@ a , .porfolio p{
         padding:4%;
     }
 
+    .porfolio p{
+        font-size: 25px;
+    }
+
     .porfolio , .manga , .buy , .artbook , .embroidery{
         border-radius: 0.5rem;
         margin:1%;
@@ -133,7 +137,8 @@ a , .porfolio p{
     }
 
     .manga{
-        width: 93%;
+        width: 97%;
+        height: 38%;
     }
 
     .artbook {
@@ -170,7 +175,7 @@ a , .porfolio p{
         border-radius: 0 0 0.5rem 0.5rem;
     }
 
-    .buy a , .porfolio p{
+    .buy a{
         font-size: 20px;
     }
 
