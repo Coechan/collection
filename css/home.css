@@ -179,3 +179,33 @@ a , .porfolio p{
     }
 
 }
+
+@media screen and (max-height:770px){
+    a {
+        font-size: 20px;
+    }
+
+    .porfolio p{
+        font-size: 20px;
+    }
+
+    .buy a{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-height:596px){
+    a {
+        font-size: 15px;
+    }
+
+    .porfolio p{
+        font-size: 12px;
+    }
+
+    .buy a{
+        font-size: 10px;
+    }
+
+}
