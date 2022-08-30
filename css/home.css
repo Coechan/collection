@@ -2,7 +2,7 @@
 html,body{
     height: 100%;
     font-family: 'Nixie One', cursive;
-    background-color: #BFB2B4;
+    background-color: #caaaaf;
 }
 .wrapper{
     background-color: #F0F0F0;
@@ -175,7 +175,7 @@ a , .porfolio p{
     }
 
     .buy a{
-        font-size: 15px;
+        font-size: 20px;
     }
 
 }
