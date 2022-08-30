@@ -61,18 +61,24 @@ a{
     color:#AD6A7C;
 }
 
-.swiper, .swiper-wrapper {
-    width: 454px;
+.swiper {
+    width: 488px;
+    margin: 11px;
     border-radius: 10px;
-    margin: 0.7%;
 }
 
-  .swiper-button-prev{
-    color: #AD6A7C;
-    left: 8px;
-    right: auto;
+.swiper-wrapper {
+    width: 384px;
+    margin: 14px;
+    border-radius: 10px;
+}
 
-  }
+.swiper-button-prev {
+    color: #AD6A7C;
+    left: 22px;
+    right: auto;
+}
+
 .swiper-button-next{
     color: #AD6A7C;
     right:15px;
@@ -92,14 +98,35 @@ a{
         width: 90%;
     }
 
-    .swiper, .swiper-wrapper {
-        width: 453px;
-        margin: 16px;
+    p{
+        font-size: 20px;
+        text-align: start;
+        padding: 2%;
     }
+
+    .swiper{
+        width: 339px;
+        margin: 11px;
+        border-radius: 10px;
+    }
+    
+    .swiper-wrapper {
+        width:353px;
+        margin: 14px;
+        border-radius: 10px;
+    }
+
+    .swiper-button-prev{
+        color: #AD6A7C;
+        right:auto;
+        left: 21px;
+      }
+
 
     .swiper-button-next{
         color: #AD6A7C;
-        right:41px;
+        right:23px;
         left: auto;
       }
 }
+
