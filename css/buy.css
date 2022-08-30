@@ -15,48 +15,91 @@ body{
 }
 .buymanga{
     background-color:#F4B8AC;
-    border-radius: 2rem;
-    margin: 1rem;
+    border-radius: 10px;
+    margin: 1%;
     width: 90%;
 }
 .buyartbook{
     background-color:#DECAE6;
-    border-radius: 2rem;
-    margin: 1rem;
+    border-radius: 10px;
+    margin: 1%;
     width: 40%;
 }
 .buyfigures{
     background-color:#F4CB67;
-    border-radius: 2rem;
-    margin: 1rem;
+    border-radius: 10px;
+    margin: 1%;
     width: 50%;
 }
 p{
     font-size: 2.5rem;
     text-align: start;
-    padding: 1rem;
+    padding: 2%;
 }
 .imgmanga{
     width: 250px;
     height: 380px;
-    border-radius: 2rem;
-    margin: 1rem;
+    border-radius: 10px;
+    margin: 1%;
 }
 .imgartbook{
-    width: 250px;
-    height: 350px;
-    border-radius: 2rem;
-    margin: 1rem;
+    width: 330px;
+    height: 362px;
+    border-radius: 10px;
+    margin: 1%;
 }
 .imgfigure{
-        width: 500px;
-        height: 350px;
-        border-radius: 2rem;
-        margin: 1rem;
+    width: 454px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 1%;
  }    
+
 a{
     text-decoration: none;
     font-weight: bold;
     color:#AD6A7C;
+}
 
+.swiper, .swiper-wrapper {
+    width: 454px;
+    border-radius: 10px;
+    margin: 0.7%;
+}
+
+  .swiper-button-prev{
+    color: #AD6A7C;
+    left: 8px;
+    right: auto;
+
+  }
+.swiper-button-next{
+    color: #AD6A7C;
+    right:15px;
+    left: auto;
+  }
+
+@media screen and (max-width:480px){
+    .box{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .buymanga , .imgmanga , .buyfigures , .imgfigure , .buyartbook, .imgartbook{
+        width: 90%;
+    }
+
+    .swiper, .swiper-wrapper {
+        width: 453px;
+        margin: 16px;
+    }
+
+    .swiper-button-next{
+        color: #AD6A7C;
+        right:41px;
+        left: auto;
+      }
 }

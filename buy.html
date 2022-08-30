@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/56f3db99b1.js" crossorigin="anonymous"></script>
     <link href="css/buy.css" rel="stylesheet">
@@ -17,20 +18,28 @@
             </div> 
             <img class="imgmanga" src="images/buy.jpg" alt="furuba in kanken">
             <div class="buyfigures">
-                <p>I recently order this mega cute Yuugi Itadori from <a href="https://www.amiami.com/eng/" target="_blank">AmiAmi</a> </p>
+                <p>I recently order this mega cute Lookup figures of Itadori and Tanjiro from <a href="https://www.amiami.com/eng/" target="_blank">AmiAmi</a> </p>
             </div>
         </div>
         <div class="box">
-            <img class="imgartbook" src="images/artbookhanako.png" alt="coffee and artbook">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img class="imgfigure" src="./images/figure.png" alt="itadori"></div>
+                  <div class="swiper-slide"><img class="imgfigure" src="./images/tanjiro2.jpg" alt="tanjiro"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
             <div class="buyartbook">
                 <p>You can also buy some awesome Artbooks at <a href="https://www.bookdepository.com/es/" target="_blank">Book Depository</a></p>
                 </div>
-                <img class="imgfigure" src="images/figure.png" alt="coffee and artbook">
-        </div>
+                <img class="imgartbook" src="images/artbookhanako.png" alt="coffee and artbook">
+            </div>
         
+        </div>
     </div>
-</div>
 
-    
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/buy.js"></script>
 </body>
 </html>
